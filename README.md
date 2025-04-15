@@ -17,15 +17,26 @@ Aprimorar habilidades em Python para construir pipelines de dados mais performá
 │   └── exemplos.py
 ├── 02_clean_code
 │   └── estrutura_projeto/
+│       └── exemplo_estrutura.md
 ├── 03_performance_concorrencia
 │   └── paralelismo.py
 ├── 04_testes_debugging
 │   └── testes_pytest/
+│       ├── test_sample.py
+│       └── README.md
 ├── 05_bibliotecas_engenharia_dados
 │   └── pandas_polars.py
 └── projeto_final_pipeline
     ├── etl_pipeline/
+    │   ├── extract.py
+    │   ├── transform.py
+    │   ├── load.py
+    │   └── cli.py
     ├── tests/
+    │   ├── test_extract.py
+    │   ├── test_transform.py
+    │   └── test_load.py
+    ├── requirements.txt
     └── README.md
 ```
 
